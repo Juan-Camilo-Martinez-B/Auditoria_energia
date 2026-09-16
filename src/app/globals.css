@@ -1,26 +1,92 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Estilos clasicos estilo aplicacion corporativa antigua / Windows 98 / Utilitario */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #d4d0c8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  font-size: 13px;
+}
+
+h1, h2, h3, h4 {
+  margin: 4px 0 8px 0;
+  color: #000080;
+}
+
+button {
+  background-color: #e0deda;
+  border: 2px outset #ffffff;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+button:active {
+  border: 2px inset #ffffff;
+}
+
+button:disabled {
+  color: #888;
+  cursor: not-allowed;
+  border: 2px solid #ccc;
+}
+
+input, select, textarea {
+  border: 1px solid #7f9db9;
+  background-color: #fff;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.panel-caja {
+  background: #ece9d8;
+  border: 2px solid #999;
+  box-shadow: 2px 2px 0px #fff inset, -2px -2px 0px #707070 inset;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.tabla-clasica {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.tabla-clasica th {
+  background: #000080;
+  color: #fff;
+  border: 1px solid #333;
+  padding: 4px;
+  text-align: left;
+}
+
+.tabla-clasica td {
+  border: 1px solid #ccc;
+  padding: 3px 6px;
+}
+
+.tabla-clasica tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+.alerta-amarilla {
+  background-color: #ffff99;
+  font-weight: bold;
+}
+
+.alerta-roja {
+  background-color: #ffcccc;
+  font-weight: bold;
+  color: #900;
+}
+
+.barra-estado {
+  background: #000080;
+  color: white;
+  padding: 3px 8px;
+  font-weight: bold;
+  font-size: 11px;
 }

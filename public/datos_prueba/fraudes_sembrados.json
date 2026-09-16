@@ -1,0 +1,107 @@
+[
+  [
+    "MTR00000000C",
+    {
+      "horaInicio": 100,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR000000031",
+    {
+      "horaInicio": 120,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR000000056",
+    {
+      "horaInicio": 140,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR00000007B",
+    {
+      "horaInicio": 160,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR0000000A0",
+    {
+      "horaInicio": 180,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR0000000C5",
+    {
+      "horaInicio": 200,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR0000000EA",
+    {
+      "horaInicio": 220,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR00000010F",
+    {
+      "horaInicio": 240,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR000000134",
+    {
+      "horaInicio": 260,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR000000159",
+    {
+      "horaInicio": 280,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR00000017E",
+    {
+      "horaInicio": 300,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR0000001A3",
+    {
+      "horaInicio": 320,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR0000001C8",
+    {
+      "horaInicio": 340,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ],
+  [
+    "MTR0000001ED",
+    {
+      "horaInicio": 360,
+      "tipo": "puente_cero"
+    }
+  ],
+  [
+    "MTR000000212",
+    {
+      "horaInicio": 380,
+      "tipo": "manipulacion_caida_70%"
+    }
+  ]
+]
